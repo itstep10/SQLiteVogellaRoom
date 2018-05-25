@@ -99,4 +99,12 @@ public class MainActivity extends Activity
 //} finally {
 //    db.endTransaction();
 //}
+
+//ANOTHER QUERY
+//    Cursor cursor = getReadableDatabase().
+//            rawQuery("select * from todo where _id = ?", new String[] { id });
+
+//    return database.query(DATABASE_TABLE,
+//        new String[] { KEY_ROWID, KEY_CATEGORY, KEY_SUMMARY, KEY_DESCRIPTION },
+//        null, null, null, null, null);
 }
